@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(247, 247, 247);
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid rgb(193, 193, 193);
+  padding: 20px;
+}
+
+.container h1 {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.table {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.text {
+  width: 47%;
+  padding: 10px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 30px;
+}
+.text span {
+  color: rgb(62, 62, 62);
+  position: absolute;
+  top: -22px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.text p {
+  color: rgb(131, 131, 131);
+  font-size: 14px;
+  font-weight: 400;
+}
+.text input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.add {
+  border: none;
+  outline: none;
+  color: blue;
+  background-color: transparent;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 29px;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  color: red;
+  background-color: transparent;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  font-weight: 700;
+}
+
+.add-table {
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.add-table input {
+  border: none;
+  outline: none;
+  width: 49%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 5px 3px 6px black;
+  margin-bottom: 15px;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
