@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FC } from "react";
+import { useState, useEffect, FC } from "react";
 import { CiCirclePlus } from "react-icons/ci";
 import { RiDeleteBinLine } from "react-icons/ri";
 
