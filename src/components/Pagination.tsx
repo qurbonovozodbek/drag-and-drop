@@ -46,6 +46,7 @@ function Paginationn() {
   }, [limit, currentPage]);
 
   function handleChange(event: React.ChangeEvent<unknown>, page: number) {
+    event.preventDefault();
     setCurrentPage(page);
   }
 

@@ -1,8 +1,6 @@
-import React from 'react'
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 function Layout() {
-    const navigate = useNavigate()
   return (
     <div className='container'>
         <header>
